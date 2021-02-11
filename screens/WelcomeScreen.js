@@ -213,11 +213,11 @@ export default class WelcomeScreen extends Component {
         >
         <View style={{flex:0.15}}/>
         <View style={styles.santaView}>
-          <SantaAnimation/>
-          {/* <Image
+          {/* <SantaAnimation/> */}
+          <Image
           source={require('../assets/santa.png')}
           style={styles.santaImage}
-           /> */}
+           />
          </View>
         </View>
         <View style={{ flex: 0.45 }}>
